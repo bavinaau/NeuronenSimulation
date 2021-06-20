@@ -1,8 +1,9 @@
 To build the project please you use gcc compiler, the build has been tested using MinGW gcc compiler version 6.0.3. 
 The distributed binary way compiled using msvc in visual studio 2019, there is no guarantee for it working.
-Clang compiler is currently not tested.
+Clang compiler is currently not supported.
 
 Please keep in mind to choose your prefered settings for the compilation. 
 
 After installing MinGW please use the following commands to build, after changing into the folder with the soruce code:
-g++ -O2 -o Neuronen Neruonen.cpp 
+g++ -O2 -std=c++14 -o Neuronen Neruonen.cpp 
+Please keep in mind to use gcc verison 6.0 or newer, to view your version please refer to g++ --version. 

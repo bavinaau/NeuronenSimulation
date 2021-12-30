@@ -1,9 +1,11 @@
-To build the project please you use gcc compiler, the build has been tested using MinGW gcc compiler version 6.0.3. 
-The distributed binary way compiled using msvc in visual studio 2019, there is no guarantee for it working.
-Clang compiler is currently not supported.
+To build the project please use the GNU gcc compiler, the build has been tested using MinGW gcc version 6.0.3. 
+The distributed binary was compiled using MSVC in visual studio 2019, there is no guarantee for it working (see License).
+Clang++ was also successfully tested to compile the repo.
 
 Please keep in mind to choose your prefered settings for the compilation. 
 
-After installing MinGW please use the following commands to build, after changing into the folder with the soruce code:
+After installing MinGW please use the following commands to build, after changing into the folder with the source code:
 g++ -O2 -std=c++14 -o Neuronen Neruonen.cpp 
 Please keep in mind to use gcc verison 6.0 or newer, to view your version please refer to g++ --version. 
+It is recommended to compile with the newest version of the c++ standard, although the repo is not under active development,
+none of the used functions should be deprecated in the following years. 
